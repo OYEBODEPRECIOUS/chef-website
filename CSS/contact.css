@@ -1,0 +1,77 @@
+/** @format */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section {
+  margin: 100px;
+  /* border: 5px s`olid orange; */
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  /* border: 4px solid red; */
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact-info-container {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-title {
+}
+
+.contact-box {
+  padding: 20px;
+  border: 2px solid gray;
+  /* width: 400px; */
+  max-width: 100%;
+}
+
+.highlight a {
+  color: orange;
+  text-decoration: none;
+}
+
+/* CONTACT FORM CONTAINER */
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+textarea {
+  padding: 20px;
+  width: 1;
+  border: 2px solid gray;
+}
+
+.send-message_btn {
+  padding: 15px 40px;
+  background-color: orange;
+  width: 40%;
+  color: white;
+  border: none;
+}
+
+.google-map {
+}
+
+.map {
+  width: 100%;
+}

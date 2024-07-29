@@ -1,0 +1,158 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.booking-form {
+  /* background-color: orange; */
+  margin: 65px 100px 0 100px;
+  margin-bottom: 0;
+}
+
+.booking-form form {
+  background-color: orange;
+  padding: 50px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: auto;
+  top: 20px;
+  margin: auto;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+.menu-section {
+  background-color: rgb(250, 250, 250);
+}
+
+.menu-title-container {
+  margin-top: 100px;
+}
+
+.menu-topic {
+  font-size: 15px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.menu-heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.menu-button-component {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 100px;
+  font-weight: 500;
+}
+
+.menu-section .menu-button-component li a {
+  color: gray;
+}
+/* .menu-button-component li {
+ 
+} */
+
+.menu_btn {
+  border: none;
+  padding: 20px;
+  color: gray;
+  background-color: white;
+  box-shadow: 1px 2px 0 rgba(128, 128, 128, 0.3);
+}
+
+#active-btn {
+  background-color: orange;
+  box-shadow: none;
+}
+
+#active-btn a {
+    color: black;
+}
+
+.menu-category {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  row-gap: 30px;
+  /* border: 5px solid blue; */
+  margin: 50px 100px  100px;
+  padding-bottom: 100px;
+  /* background-color: gray; */
+}
+
+.menu-container {
+  display: flex;
+  /* flex-direction: column; */
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 5px solid orange; */
+  background-color: white;
+}
+
+.menu-img-container {
+  width: 70px;
+  height: 70px;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  background-color: white;
+}
+
+.menu-item {
+}
+
+.menu-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.menu-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.menu-price {
+}
+
+.price {
+  font-size: 28px;
+}
